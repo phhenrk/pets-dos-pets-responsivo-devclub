@@ -1,0 +1,145 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    margin: 47px 0 163px 42px;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+}
+
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4B505A;
+    margin-top: 40px;
+    }
+
+    article{
+        margin: 25px 0px 25px 25px ;
+        display: inline-block;
+       
+    }
+    
+
+
+    
+footer{
+    text-align: center;
+    margin: 25px 0px 25px 25px ;
+} 
+    
+    .img-linkedin {
+        width: 100px;
+        height: 70px;
+        margin-left: 10px;
+        display: inline-block;
+        border-radius: 8px;
+    }
+    
+    .img-github{
+        width: 100px;
+        height: 70px;
+        margin-left: 10px;
+        display: inline-block;
+        border-radius: 8px;
+    }
+    
+    .img-insta {
+        width: 100px;
+        height: 70px;
+        margin-left: 10px;
+        display: inline-block;
+        border-radius: 8px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    
+
+
+
+    /* Estilos para dispositivos de tela pequena (como celulares e tablets) */
+@media screen and (max-width: 800px) {
+    header {
+        margin: 10px 0 20px 10px;
+    }
+
+    .link-header {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .button-header {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .img-logo {
+        max-width: 90%;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+
+    }
+
+    article{
+        margin: 10px;
+        align-items: center;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+        width: 250px;
+        margin-bottom: 10px;
+        margin-right: 25px;
+        margin-left: 25px;
+        
+    }
+    
+    
+
+
+
+}
+
+    

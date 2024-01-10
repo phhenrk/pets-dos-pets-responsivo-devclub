@@ -1,0 +1,265 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 163px 42px;
+    cursor: pointer;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FFF;
+    cursor: pointer;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+}
+
+
+.img-logo {
+    width: 595.1782px;
+    height: 500px;
+    margin-left: 100px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 96.83px;
+    width: 493px;
+
+}
+
+h1 {
+font-size: 62px;
+font-weight: 700;
+line-height: 82px;
+color: #FFF;
+}
+
+p {
+font-size: 18px;
+font-weight: 400;
+line-height: 33px;
+color: #FFF;
+margin-top: 47px;
+}
+
+.link-learn {
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+color:#6FBF44;
+
+}
+
+article{
+    margin: 25px 0px 25px 25px ;
+    width: 500px;
+    display: inline-block;
+}
+h2{
+    margin-top: 5px;
+    width:  400px;
+    color: #FFF;
+}
+
+h3{
+    color: #FFF;
+}
+
+article-2{
+    margin: 25px 0px 25px 25px ;
+    width:  450px;
+    display: inline-block;
+    margin-left: 96.83px;
+}
+
+.pets-capa{
+    width: 600px;
+    height: 400px;
+    margin-left: 130px;
+    display: block;
+    border-radius: 8px;
+}
+
+.article-3{
+    margin: 25px 0px 25px 25px ;
+    width: 500px;
+    display: inline-block;
+}
+
+
+.article-5{
+    margin: 25px 0px 25px 25px ;
+    width: 500px;
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    margin: 25px 0px 25px 25px ;
+}
+
+.img-linkedin {
+    width: 100px;
+    height: 70px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.img-github{
+    width: 100px;
+    height: 70px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.img-insta {
+    width: 100px;
+    height: 70px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.video-pets {
+   position: fixed;
+   top: 0;
+   z-index: -1;
+   min-width: 100%;
+   min-height: 100%;
+}
+
+video{
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.mascara-video{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Estilos para dispositivos de tela pequena (como celulares e tablets) */
+@media screen and (max-width: 800px) {
+    header {
+        margin: 10px 0 20px 10px;
+    }
+
+    .link-header {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .button-header {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .img-logo {
+        max-width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 70px;
+
+    }
+
+    section {
+        margin: 10px;
+        align-items: center;
+
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 32px;
+        width: 200px;
+        margin-right: 25px;
+        margin-left: 25px;
+        
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 10px;
+        width: 250px;
+        margin-bottom: 10px;
+        margin-right: 25px;
+        margin-left: 25px;
+        
+    }
+    
+    .link-learn {
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+
+
+
+    .pets-capa{
+        max-width: 80%;
+        height: auto;
+        display: flex;
+        margin: 0 70px;
+    }
+
+    .video-pets {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        min-height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     }
+
+    video{
+        position: fixed;
+        top: 0;
+        min-height: 100%;
+       
+
+}

@@ -1,0 +1,94 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.senha {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.pagina-inicial {
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+a { 
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* estilo hmtl missão */
+
+.missao{
+   
+}
+
+
+button:hover{
+    background-color: #0056b3;
+}
+ 
+a:hover {
+    color: red;
+}
